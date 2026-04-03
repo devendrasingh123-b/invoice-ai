@@ -6,7 +6,7 @@ import {
   PieChart, Pie, Cell
 } from 'recharts'
 
-const API = 'http://localhost:5000'
+const API = 'https://invoice-ai-backend-f8lx.onrender.com'
 const COLORS = ['#6366f1', '#8b5cf6', '#a78bfa', '#c4b5fd', '#ddd6fe']
 
 export default function Analytics() {

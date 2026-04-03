@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:5000'
+const API = 'https://invoice-ai-backend-f8lx.onrender.com'
 
 function ConfidenceBadge({ score }) {
   const pct = Math.round((score || 0) * 100)
